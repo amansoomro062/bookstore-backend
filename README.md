@@ -1,10 +1,5 @@
 # book-store-application-backend
 Instructions:
-A)Application uses h2 database and creates two users with role User,Admin. When application starts it creates users as following
-1) username: user, password: user role User
-2) username: admin, password: admin 
-All data is lost as soon you restart the server
-B) if you want use MySql or Postgress then add their dependencies and create a database schema `book` and update application.properties file.
 #mysql configuration
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/fyp-book?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
